@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.toolbar {
+  width: 10%;
+  min-height: 100vh;
+  float: left;
+}
+
+.tool {
+  font-size: 20px;
+}
+
+.canvas-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.canvas-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.canvas-container table {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.canvas-container table td {
+  width: 2vw;
+  height: 2vw;
+}
+
+.canvas-background {
+  z-index: 0;
+  display: table;
+  border: 2px solid #555;
+  border-collapse: collapse !important;
+}
+
+.canvas-background tr td {
+  background-color: rgb(243, 243, 243) !important;
+}
+
+.canvas-background tr:nth-child(even) td:nth-child(odd),
+.canvas-background tr:nth-child(odd) td:nth-child(even) {
+  background-color: rgb(214, 214, 214) !important;
+}
+
+.canvas {
+  z-index: 1;
+  border: "1px solid black";
+}
