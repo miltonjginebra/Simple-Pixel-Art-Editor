@@ -2,6 +2,10 @@
 
 [Simple Pixel Editor](http://simple-pixel-art-editor.s3-website-us-east-1.amazonaws.com/)
 
+# Limitations
+
+1) Right now the grid size is fixed, will add an option to change grid size in the future.
+
 # Known bugs
 
 1) "Maximum call stack size exceeded" when running development mode and using fill twice in a row.
