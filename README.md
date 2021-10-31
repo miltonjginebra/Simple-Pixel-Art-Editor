@@ -1,18 +1,18 @@
+# Demo
+
+[Simple Pixel Editor](http://simple-pixel-art-editor.s3-website-us-east-1.amazonaws.com/)
+
 # Known bugs
 
-1) "Maximum call stack size exceeded" when using fill twice in a row.
-
-2) Undo does not work with fill
+1) "Maximum call stack size exceeded" when running development mode and using fill twice in a row.
 
 # Todo
 
 1) Improvements to the flood fill algorithm
 
+2) Add fill undo.
+
 2) Add Options (Ex. Turn Off/On Background Grid)
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
